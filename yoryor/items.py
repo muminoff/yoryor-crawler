@@ -14,9 +14,3 @@ class ArtistItem(scrapy.Item):
     link = scrapy.Field()
     cover = scrapy.Field()
     songs = scrapy.Field()
-
-
-class YoryorItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
